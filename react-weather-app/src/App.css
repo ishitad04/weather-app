@@ -1,0 +1,4 @@
+.container {/*adding some global styles to appn*/
+  max-width:1080px ; /*adding some max width not full width*/
+  margin: 20px auto;/*top bottom 20 ,left right auto,centers container*/
+}

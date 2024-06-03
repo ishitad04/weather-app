@@ -1,0 +1,142 @@
+/* .weather{
+    width: 300px;
+    border-radius: 8px;
+    box-shadow:2px -2px 30px 2px whitesmoke;
+    color: #212a31;
+    background-color: #748d92;
+    margin: 60px auto 0 auto;
+    padding: 0 20px 10px 20px;
+}
+
+
+.top,
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.city{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 0;
+    margin:0;
+    letter-spacing: 1px;
+}
+
+.weather-icon{
+    width: 100px;
+}
+
+.temp{
+    font-weight:600;
+    font-size: 50px;
+    width:auto;
+    letter-spacing:-2px;
+    margin: 10px 0 ;
+}
+
+.deets{
+    width:100%;
+    padding-left: 30px; 
+    
+}
+
+
+
+.par-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.par-label{
+    text-align: left;
+    font-weight: 400;
+    font-size:12px;
+
+}
+
+.par-value{
+    text-align: right;
+    font-weight: bolder;
+    font-size: 12px;
+
+} 
+
+.par-label-top{
+    padding-left: 80px;
+    font-weight: 400;
+    font-size:12px;
+} */
+
+
+.weather {
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 2px -2px 30px 2px whitesmoke;
+    color: #212a31;
+    background-color: #748d92;
+    margin: 60px auto 0 auto;
+    padding: 0 20px 10px 20px;
+    overflow: hidden; /* Ensure no overflow */
+}
+
+.top,
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Allow wrapping */
+}
+
+.city {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.2;
+    margin: 0;
+    letter-spacing: 1px;
+    overflow-wrap: break-word; /* Break long words */
+    width: 100%; /* Full width */
+}
+
+.weather-icon {
+    width: 100px;
+}
+
+.temp {
+    font-weight: 600;
+    font-size: 50px;
+    width: auto;
+    letter-spacing: -2px;
+    margin: 10px 0;
+}
+
+.deets {
+    width: 100%;
+    padding-left: 30px;
+}
+
+.par-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.par-label {
+    text-align: left;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.par-value {
+    text-align: right;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.par-label-top {
+    padding-left: 80px;
+    font-weight: 400;
+    font-size: 12px;
+}
